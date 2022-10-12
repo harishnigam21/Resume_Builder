@@ -51,7 +51,7 @@
   <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">Resume Builder</h1>
+        <h1 class="masthead-heading mb-0">Ressssssssssssssssume Builder</h1>
         <h2 class="masthead-subheading mb-0">Build your Resume frequently and faster</h2>
         <a href="registration.php" class="btn btn-primary btn-xl rounded-pill mt-5">User Signup</a>
       </div>
