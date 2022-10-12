@@ -1,6 +1,6 @@
 <?php
-session_start();
-echo $_SESSION['id'];
+// session_start();
+// echo $_SESSION['id'];
 //$_SESSION['msg'];
 include("dbconnection.php");
 // include("checklogin.php");
