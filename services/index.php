@@ -13,7 +13,7 @@
   </h1>
 </head>
 <body>
-<!-- partial:index.partial.html -->
+<!-- partial:appoint.partial.html -->
 	<div class="cardList">
 		<button class="cardList__btn btn btn--left">
 			<div class="icon">
@@ -58,7 +58,7 @@
 				<h4 class="text location">NearBy you</h4>
 				<p class="text description">Hair-Cut, Beared-Cut & many more</p>
 				<a
-                href="hairsalon/index.php"
+                href="hairsalon/appoint.php"
                 class="btn btn-primary"
                 >Go There</a>
 			</div>
@@ -68,7 +68,7 @@
 				<h4 class="text location">NearBy You</h4>
 				<p class="text description">Mackep, Body waxing & many more</p>
 				<a
-                href="beautysalon/index.php"
+                href="beautysalon/appoint.php"
                 class="btn btn-primary"
                 >Go There</a>
 			</div>
@@ -78,7 +78,7 @@
 				<h4 class="text location">NearBy you</h4>
 				<p class="text description">Facial, Massage & many more</p>
 				<a
-                href="spasalon/index.php"
+                href="spasalon/appoint.php"
                 class="btn btn-primary"
                 >Go There</a>
 			</div>
