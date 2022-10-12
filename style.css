@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("welcome.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.title{
+    color: rgb(255, 0, 0);
+    margin:19rem auto;
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.subtitle{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    bottom: 19rem;
+}
+.subtitlebtn{
+    position: relative;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem  0.5rem;
+    background-color:red;
+    bottom: 18rem;
+    justify-content: center;
+    
+}
+.subtitlebtn:hover{
+    padding: 0.7rem 1.7rem;
+    background-color:white;
+}
+.subtitlebtn a{
+    color: white;
+    text-decoration: none;
+}
+.subtitlebtn a:hover{
+    color:black;
+}

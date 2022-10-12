@@ -1,0 +1,20 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Seat Reservation with React</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react-dom.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

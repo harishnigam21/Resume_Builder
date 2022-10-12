@@ -1,0 +1,123 @@
+b {
+  font-size: 2em;
+  font-family:'Sacramento', cursive;
+}
+
+.w3-bar-item {
+  font-size: 2em;
+  font-family:'Vidaloka', serif; 
+}
+
+p{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Handlee', cursive;  
+}
+
+#contact p{
+font-size: 1.5em;
+  text-align: center;
+  font-family: 'Handlee', cursive;  
+}
+.f {
+  text-align: center;
+  font-size: 1.em;
+  font-family: 'Dancing Script', cursive;
+  margin-top: 20px;
+
+}
+#services h3{
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-size: 3em;
+}
+
+#hours p {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+
+#hours h3{
+text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-size: 3em;  
+}
+
+.team{
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-size: 3em;
+}
+
+.contact{
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  font-size: 3em;
+}
+
+/* Style all font awesome icons */
+.fa {
+   font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {    
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  margin:5px;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  margin:5px;
+}
+
+.fa-instagram {
+  color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  margin:5px;
+}
+
+.fa-pinterest {
+  color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+  margin:5px;
+}
+
+@media only screen and (max-width: 480px), (orientation: portrait) {
+  body{
+    max-width: 100%;
+    max-height:auto;
+    position: relative:
+  }
+  
+  .bimg {
+    width: 100%;
+    height: auto;
+       margin-top: 60px;
+  padding-top: 20px;
+       overflow: visible;
+  }
+}

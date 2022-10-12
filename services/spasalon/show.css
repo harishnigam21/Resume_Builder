@@ -1,0 +1,77 @@
+body {
+  background-color: #ececec;
+  color: #3f3739;
+}
+a {
+  color: #3f3739;
+  text-decoration: none;
+}
+.slideshow {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 480px;
+  left: -1150px;
+  text-align: center;
+}
+.slide {
+  position: absolute;
+  width: 1500px;
+  height: 2000px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.overlay {
+  position: absolute;
+  width: 1420px;
+  height: 600px;
+  overflow: hidden;
+}
+.overlay-shadow {
+  box-shadow: inset 0px 0px 10px #000;
+  opacity: 0.6;
+}
+.overlay-highlight {
+  background: -webkit-radial-gradient(30% 30%, closest-corner, #fff, #2F2727);
+  background: -moz-radial-gradient(30% 30%, closest-corner, #fff, #2F2727);
+  background: -ms-radial-gradient(30% 30%, closest-corner, #fff, #2F2727);
+  opacity: 0.4;
+}
+.active {
+  opacity: 1;
+}
+.slide active img {
+  width: 1600px;
+  height: 600px;
+}
+.slide img {
+  width: 1600px;
+  height: 600px;
+}
+.slide img.horizontal {
+  max-height: 100%;
+}
+.slide img.vertical {
+  max-width: 100%;
+}
+.slideshow-nav {
+  width: 500px;
+  margin: -175px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+  overflow: auto;
+}
+.nav-link {
+  transition: color 0.25s linear;
+  padding: 0px 5px;
+}
+.nav-link:hover {
+  color: #222;
+}
+.previous {
+  float: left;
+}
+.next {
+  float: right;
+}

@@ -1,0 +1,383 @@
+html, body {
+  margin: auto;
+  padding: 0;
+}
+.navigation {
+  background-color: ;
+  overflow-y: ;
+  position: ;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+  
+}
+
+ul {
+  padding: 0;
+}
+#home{
+  border: 3px solid transparent;
+
+  /*border: 3px solid pink;
+  padding:5px 20px;
+  color:white;*/
+}
+
+li {
+  color: white;
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 16px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:10px 5px;
+  border:3px solid transparent;
+}
+
+
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 0px;
+}
+.underlinetitle{
+  height:5px;
+  background-color:black;
+  width:15%;
+  margin:auto;
+}
+
+
+.jumbotron {
+  background: url("https://iso.500px.com/wp-content/uploads/2015/05/coulson_cover.jpeg") no-repeat center center;
+  background-size: cover;
+  height: 900px;
+  position:relative;
+  bottom:20px;
+  
+  }
+
+
+.header {
+  background-color: white;
+}
+.underlinetitle{
+  height:5px;
+  opacity: 0.5;
+  width:25%;
+  margin-left:5px;
+}
+h1{
+  color:white;
+}
+em{
+  font-style:normal;
+  color: pink;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.main {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.material-icons{
+  color: #a69859;
+  
+}
+#number{
+  color: #a69859;
+  font-size:45px;
+}
+#adress{
+  color: #a69859;
+  font-size:25px;
+}
+
+.main h1 {
+  color: color;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 180px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: loweruppercase;
+  position:relative;
+  right:20px;
+  top:200px;
+ }
+footer4 h1{
+  color:black;
+}
+.btn-main {
+  background-color: #fe7676;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position:relative;
+  bottom:40px;
+  position:relative;
+  right:20px;
+  border-radius:10px;
+}
+
+.main h2{
+  font-family:'Raleway', sans-serif;
+  color: white;
+  position:relative;
+  top: 140px;
+  font-size: 30px;
+  text-transform: uppercase;
+  
+}
+
+.container1, .container2, .container1a{
+  width:40%;
+  margin:auto;
+  
+  display:inline-block;
+  vertical-align:middle;
+}
+.container2{
+  margin-left:200px;
+}
+.containerform{
+  margin-left:200px;
+}
+.container1{
+  margin-left:150px;
+}
+#salon{
+  height:600px;
+}
+#man{
+  height:600px;
+}
+.footer4{
+  padding-top:20px;
+}
+#welcome{
+  color: pink;
+  font-family:'Raleway', sans-serif;
+}
+.btn-main5{
+  border:1px solid black;
+  padding:14px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top:40px;
+}
+#welcome2{
+  color:black;
+  font-size:35px;
+  font-family: 'Dancing Script', cursive;
+}
+#prices{
+  color:pink;
+  font-size:35px;
+  font-family: 'Raleway', sans-serif;
+  text-transform:uppercase;
+}
+.footer {
+  background-color: #87CEEB;
+  color: #fff;
+  padding: 20px 0;
+  position:relative;
+  top:75px;
+  }
+.footer p{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align:center;
+}
+.barbers{
+ 
+}
+.b1 img{
+  width:20%;
+  display: inline-block;
+  
+}
+.btn{
+  
+}
+.products {
+  /*background-color: red;*/
+  box-sizing: border-box;
+  width: 90%;
+  margin: 50px auto;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  text-align: center;  
+  border:;
+
+}
+
+.product {
+  display: inline-block;
+  text-align: left;
+  width: 33%;
+  margin: auto;
+  padding: 0%;
+  /*background-color:yellow;*/
+  padding-top:70px;
+}
+
+.product img {
+  width: 90%;
+  border-radius:;
+}
+
+.blue {
+  font-size:50px;
+   font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: pink;
+}
+.underlinetitle2{
+  height:5px;
+  background-color:black;
+  width:15%;
+  margin-left:720px;
+  opacity:0.5;
+}
+.meet{
+  font-size:35px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.btn{
+   
+  font-size: 26px;
+  padding: 17px;
+  margin-left: 720px;
+  position:relative;
+  text-decoration:none;
+  bottom:20px;
+  margin-bottom:30px;
+}
+
+.container1 p{
+  font-size:30px;
+  font-family: 'Playfair Display', serif;
+}
+.container1a p{
+  font-family: 'Playfair Display', serif;
+}
+.container1 h1{
+  font-size:50px;
+}
+.listp p{
+  font-size:25px;
+  font-family:'Comfortaa', cursive;
+  font-style:bold;
+}
+.welcome2p{
+  font-size:30px;
+}
+.name{
+  font-family: 'Raleway', sans-serif;
+  font-size:30px;
+  color: #a69859;
+}
+.av{
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
+  text-transform:uppercase;
+  color: #a69859;
+}
+strong{
+  color:
+}
+.product p{
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  opacity: 0.5;
+}
+.btn{
+  border:1px solid black;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+  position:relative;
+  bottom:40px;
+  right:40px;
+}
+.jumbotron2 {
+  background: url("https://s27.postimg.org/9vv0pfpvn/shedit.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  position:relative;
+  bottom:0px;
+  
+  }
+.main2 h1 {
+  color: color;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: loweruppercase;
+  text-align:center;
+  font-style: italic;
+  margin-top: 20px;
+  position:relative;
+  top:90px;
+ }
+.main2 h2{
+  font-family:'Raleway', sans-serif;
+  color: white;
+  text-align:center;
+  font-size: 30px;
+  text-transform: uppercase;
+  position:relative;
+  top:40px;
+}
+.btn-last{
+  text-align:center;
+  margin-left:780px;
+  padding:10px;
+  font-size:25px;
+  border-radius:10px  ;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  background-color: #fe7676;
+  color: #FFF;
+  text-transform:ercase;
+  position:relative;
+  top:60px;
+}
+.main2{
+  position:relative;
+  top:20px;
+}
+.footer4{
+  padding-bottom:100px;
+}

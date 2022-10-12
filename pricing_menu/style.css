@@ -1,0 +1,49 @@
+body {
+  background: black;
+  color: white;
+  padding: 2em;
+}
+
+.pricing {
+  padding 2em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pricing ul {
+  list-style: none;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing li {
+  border-top: solid #2a2a2a 1px;
+  display: table-row;
+}
+
+.pricing li:first-child {
+  border-top: none;
+}
+
+.prod,
+.price {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.price {
+  text-align: right;
+}
+
+.inner {
+  display: inline-block;
+  padding: .75em 0;
+}
+
+.prod .inner {
+}
+
+.price .inner {
+  min-width: 100px;
+}
