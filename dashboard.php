@@ -1,8 +1,8 @@
 <?php
-session_start();
-include("checklogin.php");
-check_login();
-include("dbconnection.php");
+// session_start();
+// include("checklogin.php");
+// check_login();
+// include("dbconnection.php");
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,10 +1,10 @@
 <?php
-session_start();
-//echo $_SESSION['id'];
-//$_SESSION['msg'];
-include("dbconnection.php");
-include("checklogin.php");
-check_login();
+// session_start();
+// //echo $_SESSION['id'];
+// //$_SESSION['msg'];
+// include("dbconnection.php");
+// include("checklogin.php");
+// check_login();
 ?>
 <!DOCTYPE html>
 <html>

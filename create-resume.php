@@ -3,8 +3,8 @@ session_start();
 echo $_SESSION['id'];
 //$_SESSION['msg'];
 include("dbconnection.php");
-include("checklogin.php");
-check_login();
+// include("checklogin.php");
+// check_login();
 if(isset($_POST['send']))
 {
 $count_my_page = ("hitcounter.txt");
