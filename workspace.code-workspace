@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Users\\haris\\OneDrive\\Documents\\Resume"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": false,
+		"liveServer.settings.multiRootWorkspaceName": "crm"
+	}
+}

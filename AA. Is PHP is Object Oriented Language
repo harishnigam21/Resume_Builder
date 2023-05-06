@@ -1,0 +1,11 @@
+When did PHP become object oriented?
+
+Basic object-oriented programming functionality was added in PHP 3 and improved in PHP 4. 
+This allowed for PHP to gain further abstraction, making creative tasks easier for programmers using the language.
+From PHP5, you can also write PHP code in an object-oriented style. Object-Oriented programming is faster and easier to execute.
+
+Drawback's -
+No, PHP is not fully object oriented language.
+And neither is C++ or Java, because they all have primitive types (and PHP also has a huge collection of function like str_replace() and is_*(), 
+which are clearly procedural in nature). Only pure object-oriented language, that i know of, are Ruby and Scala (and one could argue that latter is more aiming at functional programming paradigm).
+PHP is, what one could call, "object-capable language".

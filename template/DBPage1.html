@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Select Template</title>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="frontend1.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="DBPage1.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="">
+        
+  <section id="Services">
+    <p class="large">Templates</p>
+    <h2>Choose your template</h2>
+    <div class="services-container container">
+      <div class="services-type Architects">
+        <div class="img-container">
+          <img src="images/Template - 01.png" alt="error" />
+          <div class="img-content">
+            <h3>Template - 01</h3>
+            <a
+              href="../resume/index.html"
+              class="btn btn-primary"
+              target="blank"
+              >Choose</a
+            >
+          </div>
+        </div>
+      </div>
+      
+     
+      <div class="services-type Interior_Design">
+        <div class="img-container">
+          <img src="Images/Template - 02.png" alt="error" />
+          <div class="img-content">
+            <h3>Template - 02</h3>
+            <a
+              href="../resume/index.html"
+              class="btn btn-primary"
+              target="blank"
+              >Choose</a
+            >
+          </div>
+        </div>
+      </div>
+     <div class="services-type Precast_material">
+        <div class="img-container">
+          <img src="Images/Template - 03.png" alt="error" />
+          <div class="img-content">
+            <h3>Template - 03</h3>
+            <a
+              href="../resume/index.html"
+              class="btn btn-primary"
+              target="blank"
+              >Choose</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--  <div class="services-type Construction_material">
+        <div class="img-container">
+          <img src="https://i.pinimg.com/originals/32/67/be/3267becdceb3beafd1ac856f37d67451.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Template - 04</h3>
+            <a
+              href="../Construction Material/index.html"
+              class="btn btn-primary"
+              target="blank"
+              >Choose</a
+            >
+          </div>
+        </div>
+      </div> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on("click", function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          }
+        );
+      } // End if
+    });
+  });
+</script>
+</html>
